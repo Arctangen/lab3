@@ -11,9 +11,9 @@ public class AppTest
     extends TestCase
 {
     public AppTest()  {
-        Simulation s = new Simulation(8);
-        s.go();
-        assertEquals(s.size, 32);
+
+        CrossRoads CR = new CrossRoads();
+
     }
 
 
